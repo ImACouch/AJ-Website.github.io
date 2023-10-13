@@ -1,0 +1,64 @@
+body {
+  background: rgb(57, 57, 57);
+
+}
+p {
+  color: black;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%; /* full window width */
+}
+
+.titol {
+  text-align: center;
+  border: 20px solid rgb(58, 16, 16);
+  text-shadow: 3px 3px 4px;
+  color:white;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 75px;
+  background-color: darkred;
+  border-radius: 20px;
+
+  animation-name: titol;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes titol{
+  0%{transform: translate3d(100px, 0px, 0px) ;}
+  100%{transform: translate3d(-100px, 0px, 0px);}
+  
+}
+
+.div1 {
+  text-align: center;
+  border: 15px solid darkgreen;
+  border-radius: 30px;
+  border-left-width: 100px;
+  border-right-width: 100px;
+}
+
+.info {
+  font-size: 50px;
+
+  border-left-width: 30px;
+}
+
+.Contact {
+  text-align: center;
+  font-size: 50px;
+  border: 30px solid gray;
+  margin-top: 30px;
+  border-radius: 50px
+}
+
+.Contact-gmal {
+  font-size: 60px;
+  color: darkblue;
+  font-weight: bold;
+}
